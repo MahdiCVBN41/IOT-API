@@ -51,7 +51,7 @@ All dependencies are injected via constructor injection.
 🗄️ Database Schema
 sql
 CREAATE DATABSE IOT;
-USE IOT:
+USE IOT;
 
 CREATE TABLE Equipment (
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -89,8 +89,8 @@ CREATE TABLE ValueLog (
 1. Clone the repository
 bash
 
-git clone https://github.com/MAHDICVBN41/IOT-api.git
-cd equipment-management-api
+git clone https://github.com/MAHDICVBN41/IOT-API.git
+cd iot-api
 
 2. Create the database
 
